@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de tarefas</h1>
+        <form>
+            <input id="tarefa" type="text" placeholder="Digite uma tarefa" required>
+            <button type="submit">Adicionar</button>
+        </form>
+        <div class="lista">
+            <ul>
+                <li id="texto-exemplo" style="text-decoration: line-through;">
+                    Após adicionar tarefa, clique sobre ela para que ela fique riscada como esta.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

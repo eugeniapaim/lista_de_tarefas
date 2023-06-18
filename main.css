@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 290px;
+    height: 100px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+h1 {
+    font-weight: bold;
+    width: 280px;
+    padding: 8px;
+    text-align: center;
+    justify-content: center;
+}
+
+form {
+    width: 290px;
+    padding: 8px;
+}
+
+input, button {
+    padding: 8px;
+    border-radius: 5px;
+} 
+
+input {
+    font-style: italic;
+}
+
+button {
+    background-color: rgba(35, 153, 35, 0.705);
+    font-weight: bold;
+}
+
+.lista {
+    width: 265px;
+    margin-left: 25px;
+    margin-top: 8px;
+}
+
+ul li {
+    font-style: italic;
+    max-width: 100%;
+}
+
+ul li:hover {
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
