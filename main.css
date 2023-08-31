@@ -1,0 +1,36 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    font-size: 20px;
+    height: 550px;
+    width: 400px;
+    border-radius: 10px;
+    background-color: black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: aliceblue;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+}
+
+h2 {
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
